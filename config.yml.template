@@ -1,0 +1,15 @@
+---
+slack:
+  token: ${SP_SLACK_TOKEN}
+default_channel: ${SP_DEFAULT_CHANNEL}
+logger:
+  enable_private_channel: ${SP_ENABLE_PRIVATE_CHANNEL}
+  enable_direct_message: ${SP_ENABLE_DIRECT_MESSAGE}
+database:
+  uri: ${SP_DATABASE_URI}
+  database: ${SP_DATABASE_DATABASE}
+redis:
+  url: ${SP_REDIS_URL}
+  namespace: ${SP_REDIS_NAME}
+rack:
+  secret: ${SP_RACK_SECRET}
