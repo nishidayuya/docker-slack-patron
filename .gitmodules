@@ -1,0 +1,3 @@
+[submodule "slack-patron"]
+	path = slack-patron
+	url = https://github.com/tyage/slack-patron.git
